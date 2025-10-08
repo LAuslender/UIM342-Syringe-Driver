@@ -1,7 +1,7 @@
 # Syringe Driver Project ReadMe
 
 ## Project Overview
-
+ 
 This repository contains the firmware and supporting CAN communication libraries for a **multi-channel syringe driver system**, designed to precisely control motor-driven syringes through a CAN (Controller Area Network) interface. The system integrates an **MCP2515-based CAN transceiver** and a **UIROBOT UIM342 motor controller** to enable synchronized and reliable operation of syringe actuators used in automated liquid handling systems.
 
 The firmware is implemented for **Arduino-compatible microcontrollers** and includes low-level CAN communication libraries (`mcp_can.cpp/.h`), an abstraction layer (`UirSimpleCAN.cpp/.h`), and the main control sketch (`syringe_driver.ino`).
