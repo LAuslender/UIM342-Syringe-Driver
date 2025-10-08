@@ -19,18 +19,6 @@ The firmware is implemented for **Arduino-compatible microcontrollers** and incl
 
 ---
 
-## Repository Structure
-
-```
-├── syringe_driver.ino          # Main Arduino sketch controlling syringe actuation
-├── UirSimpleCAN.cpp            # High-level CAN abstraction for UIROBOT motor communication
-├── UirSimpleCAN.h
-├── mcp_can.cpp                 # MCP2515 CAN controller driver implementation
-├── mcp_can.h
-```
-
----
-
 ## System Architecture
 
 ### 1. Syringe Driver Firmware
